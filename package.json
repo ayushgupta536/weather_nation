@@ -8,7 +8,7 @@
     "build": "npx webpack",
     "start:dev": "webpack-dev-server",   "build:server:once": "cross-env NODE_ENV=development webpack --config webpack.config.server.js",     "dev:server": "npm run build:server:once && npm-run-all --parallel nodemon:prod watch:server",     "watch:server": "NODE_ENV=development NODE_ENV=development webpack --config webpack.config.server.js --watch",     "nodemon:prod": "cross-env NODE_ENV=development node-dev server.prod.js" 
   },
-  "author": "max_keviv",
+  "author": "Ayush Gupta",
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.13.14",
